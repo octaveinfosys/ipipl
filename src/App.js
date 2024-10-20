@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Navbar1 from "./components/Navbar1";
+import { BrowserRouter as Router } from "react-router-dom";
+import Footer from "./components/Footer";
+import Routing from "./Routing";
+import ScrollToTop from "./ScrollToTop";
+
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  const spinner = document.getElementById("spinner");
+  if (spinner) {
+    setTimeout(() => {
+      spinner.style.display = "none";
+      setLoading(false);
+    }, 2000);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+     !loading && (
+      <Router>
+        <ScrollToTop>
+            <Navbar1 />
+          <Routing />
+          <Footer />
+        </ScrollToTop>
+      </Router>
+     )
+      
+
   );
 }
 

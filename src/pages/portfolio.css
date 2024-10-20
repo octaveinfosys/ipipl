@@ -1,0 +1,22 @@
+.portfolio-heading {
+    color: #fff;
+    text-align: center;
+}
+.portfolio-box {
+    transition: all .4s ease-in-out;
+}
+.portfolio-box:hover {
+    transform: scale(1.1);
+    color: #f98100;
+   }
+   /* .featured-thumbnail:hover{
+    border: 1px solid #f98100;
+   } */
+   .project-heading {
+    color: #ffffff;
+    text-decoration: underline;
+    margin-bottom: 2px;
+   }
+   .fa-angle-down {
+    color: #f98100;
+   }

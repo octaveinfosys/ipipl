@@ -1,0 +1,39 @@
+export const data = [
+    {
+        id:1,
+        img:'assets/images/portfolio/project-1-1200x800.jpg'
+    },
+    {
+        id:2,
+        img:'assets/images/portfolio/project-2-1200x800.jpg'
+    },
+    {
+        id:3,
+        img:'assets/images/portfolio/project-3-1200x800.jpg'
+    },
+    {
+        id:4,
+        img:'assets/images/portfolio/project-4-1200x800.jpg'
+    },
+    {
+        id:5,
+        img:'assets/images/portfolio/project-5-1200x800.jpg'
+    },
+    {
+        id:6,
+        img:'assets/images/portfolio/project-6-1200x800.jpg'
+    },
+    {
+        id:7,
+        img:'assets/images/portfolio/project-7-1200x800.jpg'
+    },
+    {
+        id:8,
+        img:'assets/images/portfolio/project-8-1200x800.jpg'
+    },
+    {
+        id:9,
+        img:'assets/images/portfolio/project-9-1200x800.jpg'
+    },
+   
+]

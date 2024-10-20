@@ -1,14 +1,40 @@
 {
-  "name": "ipipl",
+  "name": "octave-infosys",
   "version": "0.1.0",
+  "homepage": "https://demo8.octaveinfosys.com/",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@fortawesome/fontawesome-svg-core": "^6.5.0",
+    "@fortawesome/free-solid-svg-icons": "^6.5.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "loadjs": "^4.3.0-rc1",
+    "react": "^18.1.0",
+    "react-animate-on-scroll": "^2.1.7",
+    "react-before-after-slider": "^1.0.4",
+    "react-bootstrap": "^2.10.2",
+    "react-build": "^1.0.8",
+    "react-compare-image": "^3.4.0",
+    "react-dom": "^18.1.0",
+    "react-grid-gallery": "^1.0.1-alpha.0",
+    "react-image-viewer-dv": "^1.0.2",
+    "react-images": "^1.2.0-beta.7",
+    "react-loader-spinner": "^5.4.5",
+    "react-owl-carousel": "^2.3.3",
+    "react-photo-gallery": "^8.0.0",
+    "react-router-dom": "^5.3.3",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.9.0",
+    "react-select": "^5.8.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +60,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.53.0"
   }
 }
